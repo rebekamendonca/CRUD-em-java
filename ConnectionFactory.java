@@ -7,10 +7,9 @@ import java.sql.SQLException;
 import org.postgresql.jdbc.PgResultSet;
 import org.postgresql.jdbc.PgStatement;
 public class ConnectionFactory {
-	//Eles estao como static porque nao quero instanciar para pegar o metodo so quero charmar
 
 	private final static String DRIVER = "org.postgresql.Driver";
-	private final static String URL = "jdbc:mysql://localhost:5432/dbmercadinho";
+	private final static String URL = "jdbc:postgresql://localhost:5432/dbmercadinho";
 	private final static String USER = "pgsql";
 	private final static String PASS = "";
 	
